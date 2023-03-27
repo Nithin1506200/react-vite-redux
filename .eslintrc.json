@@ -20,7 +20,8 @@
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": ["off", { "extensions": [".tsx"] }]
+    "react/jsx-filename-extension": ["off", { "extensions": [".tsx"] }],
+    "no-console": ["error", { "allow": ["warn", "error"] }]
   },
   "settings": {
     "react": {
