@@ -19,7 +19,8 @@
     "paths": {
       "@/*": ["src/*"],
       "@/assets/generic/*": ["src/assets/generic/*"],
-      "@/components/*": ["src/components/*"]
+      "@/components/*": ["src/components/*"],
+      "@/redux/*": ["src/store/*"]
     }
   },
   "include": ["src"],
