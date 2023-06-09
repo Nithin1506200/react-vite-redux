@@ -20,9 +20,11 @@ export default function Dummy() {
           dispatch(changeName('name changed'));
           dispatch(changeNameOfSlice2('nithin'));
         }}>
-        change namd
+        change name
       </button>
-      <img src={dummySvg} alt="dummy" />
+      <div>
+        <img src={dummySvg} alt="dummy" />
+      </div>
     </>
   );
 }

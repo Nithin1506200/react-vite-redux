@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev:staging": "vite --mode staging",
+    "dev": "vite ",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint:fix": "eslint . --fix",
@@ -42,6 +42,7 @@
     "eslint-plugin-storybook": "^0.6.11",
     "prettier": "^2.8.4",
     "prop-types": "^15.8.1",
+    "sass": "^1.62.1",
     "storybook": "^7.0.2",
     "typescript": "^4.9.3",
     "vite": "^4.1.0",
