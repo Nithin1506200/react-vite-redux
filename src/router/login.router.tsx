@@ -4,7 +4,6 @@ import routePath from './routes.path';
 
 const loginRouter: RouteObject = {
   path: routePath.login,
-  index: true,
   loader: () => <h1>Loaing</h1>,
   Component: LoginPage
 };
