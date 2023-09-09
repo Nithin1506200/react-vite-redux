@@ -1,4 +1,6 @@
+import Button from '@/components/ui/button/Button';
 import routePath from '@/router/routes.path';
+
 import { useNavigate } from 'react-router-dom';
 
 export default function LoginPage() {
@@ -16,6 +18,7 @@ export default function LoginPage() {
         <input type="password" name="passowrd"></input>
         <button type="submit"></button>
       </form>
+      <Button isLoading={true} />
     </>
   );
 }

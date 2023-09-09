@@ -19,7 +19,8 @@ export default function Dummy() {
         onClick={() => {
           dispatch(changeName('name changed'));
           dispatch(changeNameOfSlice2('nithin'));
-        }}>
+        }}
+      >
         change name
       </button>
       <div>

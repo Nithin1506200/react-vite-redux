@@ -1,4 +1,4 @@
-import LoginPage from '@/pages/Login.page';
+import LoginPage from '@/pages/LoginDemo.page';
 import { RouteObject } from 'react-router-dom';
 import routePath from './routes.path';
 
